@@ -20,6 +20,18 @@ const Header = () => {
                   <button>Teacher</button>
                 </Link>
               </div>
+              <div className="right">
+                <span>
+                  <Link to="/addstudent">
+                    <button>Add Student</button>
+                  </Link>
+                </span>
+                <span>
+                  <Link to="/addteacher">
+                    <button>Add Teacher</button>
+                  </Link>
+                </span>
+              </div>
             </div>
           </div>
         </div>
